@@ -2,11 +2,13 @@
 __author__ = 'Louis Volant'
 __version__= 1.0
 
-import logging, json, os, re
+import logging, os, re
 from pydub import AudioSegment
 from pydub.utils import mediainfo
 
 TARGET_BITRATE = "128k"
+
+
 # README
 # execute with
 # $ lowerbitrate % pip install pydub
